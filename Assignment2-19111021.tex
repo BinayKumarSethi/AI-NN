@@ -1,0 +1,58 @@
+\documentclass[10pt,a4paper,twoside]{article}
+\usepackage[dutch]{babel}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float,flafter}	
+\usepackage{hyperref}
+\usepackage{inputenc}
+\setlength\paperwidth{20.999cm}\setlength\paperheight{31.699cm}\setlength\voffset{-1in}\setlength\hoffset{-1in}\setlength\topmargin{.1cm}\setlength\headheight{12pt}\setlength\headsep{0cm}\setlength\footskip{1.131cm}\setlength\textheight{29cm}\setlength\oddsidemargin{2.499cm}\setlength\textwidth{15.999cm}
+
+\begin{document}
+\begin{center}
+\hrule
+
+\vspace{.4cm}
+{\bf {\Large ASSIGNMENT-2 }}\\
+\vspace{.3cm}
+{\bf {\huge Godel's Incompleteness Theorem}}
+\vspace{.3cm}
+\end{center}
+{\bf Name:}  BINAY KUMAR SETHI\\
+{\bf Roll no:}  19111021 \\
+{\bf Branch: }  Biomedical Engineering \hspace{\fill}  22 July, 2021 \\
+\hrule
+
+\vspace{.3cm}
+\section{Godel's Incompleteness Theorem} 
+It consist of two theorems of mathematical logic that are concerned with the limits of provability in formal axiomatic theories. The first theorem states that no consistent system of axioms whose theorems can be listed by an effective procedure is capable of proving all truths about the arithmetic of natural numbers.  The second incompleteness theorem, an extension of the first, shows that the system cannot demonstrate its own consistency.\\
+
+{\bf Formal Systems}-It is a theoretical structure used for deducing theorems from axioms following a set of rules.\\
+(a){\bf Effective Axiomatization}- A formal system is said to be effectively formed if its set of theorems is a recursively enumerable set.\\
+(b){\bf Completeness}- A set of axioms is (syntactically, or negation-) complete if, for any statement in the axioms' language, that statement or its negation is provable from the axioms.\\
+(c){\bf Consistency}- A set of axioms is consistent if there is no statement such that both the statement and its negation are provable from the axioms, and inconsistent otherwise.\\
+(d){\bf Systems which contain arithmetic}-The incompleteness theorems apply only to formal systems which are able to prove a sufficient collection of facts about the natural numbers.
+(e){\bf Conflicting Goals}- While selecting axioms, one goal is to be able to provide maximum correct results possible, without proving any incorrect results. 
+\section{First Incompleteness Theorem}
+Any consistent formal system F within which a certain amount of elementary arithmetic can be carried out is incomplete; i.e., there are statements of the language of F which can neither be proved nor disproved in F.\\
+
+{\bf Proof sketch for the first theorem}\\
+1.Proof by contradiction, it includes Arithmetization of syntax, provability, Diagonalization
+2.Proof via Berry's paradox
+3.Computer verified proofs
+
+\section{Second Incompleteness Theorem}
+For each formal system F containing basic arithmetic, it is possible to canonically define a formula Cons(F) expressing the consistency of F. This formula expresses the property that "there does not exist a natural number coding a formal derivation within the system F whose conclusion is a syntactic contradiction." The syntactic contradiction is often taken to be "0=1", in which case Cons(F) states "there is no natural number that codes a derivation of '0=1' from the axioms of F."
+Gödel's second incompleteness theorem shows that, under general assumptions, this canonical consistency statement Cons(F) will not be provable in nF.
+Gödel's second incompleteness theorem shows that, under general assumptions, this canonical consistency statement Cons(F) will not be provable in F.\\
+
+{\bf Proof sketch for the second theorem}\\
+he main difficulty in proving the second incompleteness theorem is to show that various facts about provability used in the proof of the first incompleteness theorem can be formalized within the system using a formal predicate for provability. Once this is done, the second incompleteness theorem follows by formalizing the entire proof of the first incompleteness theorem within the system itself.
+
+
+
+
+
+
+
+
+\end{document}
